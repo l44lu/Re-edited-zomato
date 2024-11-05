@@ -1,0 +1,460 @@
+*{
+    box-sizing: border-box ;
+
+}
+body{
+    margin:0;
+    width: 100%;
+    background-color:white;
+}
+.container{
+    width: 83%;
+    margin: auto;
+    height: 50px;
+    padding-left: 100px;
+}
+.header{
+    position: relative;
+
+}
+.image-container{
+    width: 100%;
+    position: relative;
+    height: 430px;
+}
+.image-container img{
+    width: 100% ;
+    height: 100%;
+    object-fit: cover;
+}
+.header-body-section{
+    position: absolute;
+    top:0;
+    width: 100%;
+    color: white;
+
+}
+.nav{
+    font-weight:550;
+    height: 50px;
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logocontainer{
+    align-items: center;
+    display: flex;
+    padding: 8px;
+    font: 15px Okra, Helvetica, sans-serif;
+}
+.logocontainer p{
+    padding: 6px;
+}
+.nav ul{
+    list-style: none;
+    display:flex;
+}
+.nav ul li{
+    height: 100px;
+    margin-right: 60px;
+    font: 20px Okra, Helvetica, sans-serif;
+    margin-right: 30px;
+ 
+}
+.nav ul li a{
+    color: inherit;
+    text-decoration: none;
+}
+.zomato-logo{
+    width: 280px;
+}
+.container-header-body{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 430%;
+    padding: 50px;
+}
+.header-body-content{
+    position: relative;
+    top: 50%;
+
+}
+.container-header-body p{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin:20px 0px ;
+    font: 35px Okra, Helvetica, sans-serif;
+    
+
+    
+}
+.search-container{
+    background-color:white;
+    width: 650px;
+    height: 50px ;
+    max-width: 700px;
+    border-radius: 8px;
+    display: flex;
+    padding-left: 8px;
+    align-items: center;
+    color: rgb(61, 61, 61);
+}
+.locationmap{
+    color: rgb(255, 116, 116);
+    font-size: 17px;
+    border: none;
+    outline: none;
+
+
+}
+.caretdown{
+    color: rgb(81, 81, 81);
+}
+.detect-location input{
+    border: none;
+    font-size: 17px;
+    width: 100px;
+    border: none;
+    outline: none;
+
+}
+.line{
+    padding: 10px;
+}
+.search-item input{
+    width: 300px;;
+    font-size: 25;
+    border: none;
+    padding: 5 10px;  
+    outline: none;
+       
+}
+/* section 1 */
+.container-features{
+    color: black;
+
+
+}
+.features{
+    overflow: hidden;
+    border: 0.4px solid rgb(215, 214, 214); 
+    border-radius: 13px;
+    height: 300px;
+    width:550px;
+    
+  
+
+}
+.feature-image{
+    height: 200px;
+    width: 550px;
+    overflow: hidden;
+
+}
+.feature-image img{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+.section-1{
+    margin-top: 30px;
+}
+.features p{
+    color: rgb(86, 86, 86);
+    margin-top: -10px;
+    padding-left: 21px;
+    font: 16px Okra, Helvetica, sans-serif;
+}
+.features h2{
+    margin-top: -px;
+    font: 20px Okra, Helvetica, sans-serif;
+    padding-left: 20px;
+
+
+}
+/* section 2 */
+.section-2{
+    margin-top: 320px;
+}
+.section-2 h1{
+    font: 40px Okra, Helvetica, sans-serif;
+    margin-top: -6px;
+    color: rgb(65, 65, 65);
+    font-weight: lighter;
+}
+.section-2 h3{
+    font: 22px Okra, Helvetica, sans-serif;
+    padding-left: 10px;
+    color: rgb(65, 65, 65);
+    
+}
+.section-2 p{
+    font: 15px Okra, Helvetica, sans-serif;
+    color: rgb(84, 84, 84);
+    margin-top: -10px;
+    padding-left: 10px;
+}
+.localities{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    border-radius: 8px;
+    border: 0.4px solid rgb(215, 214, 214);
+    height: 90px;
+    max-width: 340px;
+    padding: 13px;
+}
+/* section-3 */
+.section-3{
+    background-color: rgb(254, 255, 240);
+    margin-top: 200px;
+    height: 500px;   
+}
+.section-3 img{
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 380px ;
+}
+.section-3 h1{
+    margin-top: -400px;
+    margin-left: 800px;
+    font: 45px Okra, Helvetica, sans-serif;
+
+}
+.section-3 p{
+    margin-top: -10px;
+    margin-left: 800px;
+    font: 15px Okra, Helvetica, sans-serif;
+    color: rgb(99, 99, 99);
+
+}
+.phoneandemail ul{
+    margin-left: 800px;
+    display: flex;
+    font: 16px Okra, Helvetica, sans-serif;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-evenly 100px;
+       
+}
+.radiocall{
+    text-decoration: none;
+    color: rgb(86, 86, 86);
+    padding: 10px;
+    padding-right: 55px;
+    margin-left: 850px;
+    transform: scale(1.2);
+    font: 15px Okra, Helvetica, sans-serif;
+    margin-right: 60px;
+
+}        
+.callandmail2{
+    margin-left: 100px;
+
+
+}
+.emailcentre{
+    padding: 17px;
+    margin-left: 803px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    border-color:rgb(203, 203, 203);
+    border-bottom-color:rgb(203, 203, 203) ;
+    border-top-color:rgb(203, 203, 203) ;
+       
+}
+.shareapplink{
+    margin-left: 1020px;
+    margin-top: -55px;
+    font: 20px Okra, Helvetica, sans-serif;
+    background-color: rgb(255, 105, 105);
+    width:158px ;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    border-radius: 8px;
+    padding-top: 8px;
+    text-align: center;
+    color: white; 
+}
+.Downloadappfrom{
+    color: rgb(127, 127, 127);
+    margin-left: 803px;
+    font: 17px Okra, Helvetica, sans-serif;
+    margin-top: 50px;
+
+}
+.imagesfordownload1 img{
+    width: 150px;
+    margin-left: 800px;
+    margin-top:15px;
+}
+.imagesfordownload2 img{
+    width:150px;
+    margin-left: 970px;
+    margin-top: -52px;
+    margin-bottom: 18px;
+}
+/* section-4 */
+.section-4 h1{ 
+    font: 35px Okra, Helvetica, sans-serif;
+    color: rgb(81, 81, 81);
+    margin-top: 90px;
+    margin-left: 240px;
+
+}
+.section-4 p{
+    font: 21px Okra, Helvetica, sans-serif;
+    color: rgb(81, 81, 81);
+    margin-left: 240px;
+    margin-top: 38px;
+    /* width: 1319px; */
+    width: 1164px;
+    border-radius: 8px;
+    height: 70px;
+    border: 0.4px solid rgb(215, 214, 214);
+    align-items: center;
+    padding-left: 25px;
+    padding-top: 20px;
+
+}
+/* for footer/ */
+.footerlanguagecountry{
+ 
+    margin-right: 90px;
+    
+}
+.flagimage{
+    width: 35px;
+    height: 25px;  
+    float: left;
+
+   
+}
+.flagimage img{
+    width: 114%;
+    height: 70%;
+    
+
+}
+.footeroptionselection{
+    display: flex;
+    padding: 8px;
+    border: 1px solid black;
+    align-items: center;
+    border-radius: 4px;
+    padding-left: 1px;
+    padding-right: 28px;
+    margin-right: 1px;
+    
+}
+.footerlanguagecountry select{
+    width: 60px;
+    border: none;
+    
+}
+.footerlanguagecountry{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: -100px;
+}
+.footer-top{
+    display: flex;
+    margin-top: 100px;
+    padding-top: 50px;
+
+}
+.countrysection{
+    float: left;
+    padding-top: 10px;
+    margin-right: 50px;
+}
+.iconofglobimage{
+    margin-left: 30px;
+    
+}
+.countrysection{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding-right: 26px;
+    padding-left: 20px;
+
+}
+footer{
+    background-color: rgb(246, 246, 246);
+    height: 600px;
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.DownloadApp{
+    width: 150px;
+    display: block;
+
+}
+.DownloadApp img{
+    width: 100%;
+}
+.footer-menu{
+    margin-top: 50px;
+}
+.footer-menu ul{
+    padding: 0;
+    list-style: none;
+
+}
+.footer-menu a{
+    color: rgb(143, 143, 143);
+    text-decoration: none;
+    font: 17px Okra, Helvetica, sans-serif;
+    line-height: 2;
+
+   
+}
+.footer-menu h3{
+    font: 17px Okra, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.footer-menu-item i{
+    width: 25px;
+    height: 20px;
+
+}
+hr{
+    margin-top: 500px;
+    width: 1300px;
+}
+.lastendingsentance{
+    margin-left: 163px;
+    font: 14px Okra, Helvetica, sans-serif;
+    color: rgb(143, 143, 143);
+}
+
+
+
+
+
+
+
+
+
+
+
